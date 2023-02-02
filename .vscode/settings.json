@@ -1,0 +1,17 @@
+{
+    "editor.language.brackets": [
+    
+    ],
+    "tailwindCSS.includeLanguages": {
+        "html": "html",
+        "javascript": "javascript",
+        "css": "css"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.language.colorizedBracketPairs": [
+    
+    ],
+    "editor.formatOnSave": true
+}
