@@ -5,7 +5,6 @@ import SideBar from "@/components/SideBar";
 import HomePage from "@/components/Home";
 import SearchBar from "@/components/SearchBar";
 
-
 export default function Home() {
   return (
     <Layout>
@@ -15,11 +14,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <div className="grid grid-flow-col ">
-      <SideBar/>
-     <HomePage/>
-     <SearchBar/>
-    </div>
+      <div className="grid grid-flow-col ">
+        <SideBar />
+        <HomePage />
+        <SearchBar />
+      </div>
     </Layout>
   );
 }
