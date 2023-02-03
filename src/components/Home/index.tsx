@@ -13,25 +13,25 @@ import {
 import { SlLocationPin } from "react-icons/sl";
 import { Tweets } from "./tweets";
 import { RiMoreLine } from "react-icons/ri";
-import { IoShareOutline } from "react-icons/io5";
 
 const HomePage = () => {
   return (
-    <div className="col-span-4  border-r">
-      <h1 className="text-[22px] mx-4 my-2 font-semibold">Home</h1>
-      <div className="flex justify-around text-center mt-4 border-b w-full">
-        <Link className="w-full  hover:bg-gray-200 py-4" href="/">
-          <span className=" mx-auto border-b-4 border-[#20a2f8]  py-4 px-1">
-            For you
-          </span>
-        </Link>
-        <Link className="w-full hover:bg-gray-200 py-4" href="/">
-          <span className=" mx-auto hover:border-b-4 hover:border-[#20a2f8]  py-4 px-1">
-            Following
-          </span>
-        </Link>
+    <div className="col-span-5 border-r">
+      <div className="sticky top-0  bg-white z-20 opacity-[0.97]">
+        <h1 className="text-[22px] mx-4 py-2 font-semibold">Home</h1>
+        <div className="flex  justify-around text-center mt-4 border-b w-full">
+          <Link className="w-full  hover:bg-gray-200 py-4" href="/">
+            <span className=" mx-auto border-b-4 border-[#20a2f8]  py-4 px-1">
+              For you
+            </span>
+          </Link>
+          <Link className="w-full hover:bg-gray-200 py-4" href="/">
+            <span className=" mx-auto hover:border-b-4 hover:border-[#20a2f8]  py-4 px-1">
+              Following
+            </span>
+          </Link>
+        </div>
       </div>
-
       <div className="flex  justify-start   mx-4 mt-2">
         <div className="pt-0">
           <Image
