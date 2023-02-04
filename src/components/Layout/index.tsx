@@ -21,7 +21,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <SideBar />
       </div>
       <div className="col-span-5 border-r"> {children}</div>
-
       <div className=" col-span-3 mx-4 py-2 h-screen sticky top-0">
         <SearchBar />
       </div>
