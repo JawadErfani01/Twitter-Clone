@@ -16,7 +16,7 @@ import { RiMoreLine } from "react-icons/ri";
 
 const HomePage = () => {
   return (
-    <div className="col-span-5 border-r">
+    <div className="border-r">
       <div className="sticky top-0  bg-white z-20 opacity-[0.97]">
         <h1 className="text-[22px] mx-4 py-2 font-semibold">Home</h1>
         <div className="flex  justify-around text-center mt-4 border-b w-full">

@@ -20,7 +20,7 @@ const SideBar = () => {
             <FaTwitter className="text-[#1d9bf0]" size={28} />
           </Link>
           <Link
-            href="/home"
+            href="/"
             className="flex justify-center items-center px-5 hover:bg-gray-200  rounded-full p-3  transition duration-200 cursor-pointer ease-linear"
           >
             <RiHome7Fill size={24} />
@@ -62,7 +62,7 @@ const SideBar = () => {
             <span className="ml-5 text-xl ">Bookmarks</span>
           </Link>
           <Link
-            href="/hashtag"
+            href="/profile"
             className=" flex justify-center items-center px-5 hover:bg-gray-200  rounded-full p-3 transition duration-200 cursor-pointer ease-linear "
           >
             <BsPerson size={24} />
