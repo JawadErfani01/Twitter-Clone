@@ -17,9 +17,14 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <SideBar />
-      <div className="col-span-5 "> {children}</div>
-      <SearchBar />
+      <div className="col-span-2 border-r h-screen sticky top-0 ">
+        <SideBar />
+      </div>
+      <div className="col-span-5 border-r"> {children}</div>
+
+      <div className=" col-span-3 mx-4 py-2 h-screen sticky top-0">
+        <SearchBar />
+      </div>
     </div>
   );
 };
